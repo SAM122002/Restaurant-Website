@@ -822,12 +822,12 @@ a:hover{
         width: 240px;
     }
     .about-img img{
-        width: 300px;
-        height: 300px;
+        width: 150px;
+        height: 150px;
     }
     .about-img{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     .callout{
         margin-top: 10px;
