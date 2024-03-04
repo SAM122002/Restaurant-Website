@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="contact-page">
+        <nav>
+            <input type="checkbox" id="check">
+            <label class="logo">TB</label>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li>
+                    <a href="index.html" onclick="uncheckCheckbox()">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#about" onclick="uncheckCheckbox()">About</a>
+                </li>
+                <li>
+                    <a href="menu.html" onclick="uncheckCheckbox()">Menu</a>
+                </li>
+                <li>
+                    <a href="index.html#offers" onclick="uncheckCheckbox()">Offers</a>
+                </li>
+                <li>
+                    <a href="contact.html" onclick="uncheckCheckbox()">Contact</a>
+                </li>
+            </ul>
+            <a href="contact.html" class="btn-1 no-visibility" style="margin-right: 60px;">
+                <p>Order Now</p>
+            </a>
+        </nav>
+
+        <h1>We Want To Hear From You</h1>
+        <p>
+            Feel free to reach out to us with any questions, concerns or feedback.
+            Our dedicated team is here to assist you.
+        </p>
+
+    <div class="contact-info">
+        <div class="stats">
+            <i class="fa-solid fa-phone fa-lg"></i>
+            <span>1111-1111-1111</span>
+        </div>
+        <div class="stats">
+            <i class="fa-solid fa-house fa-lg"></i>
+            <span>123 ST. California, US</span>
+        </div>
+        <div class="stats">
+            <i class="fa-solid fa-envelope fa-lg"></i>
+            <span>abc@gmail.com</span>
+        </div>
+    </div>
+    <form action="mailto:abc@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Name">
+        <input type="number" name="number" placeholder="Contact No." required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="description" cols="30" rows="10" placeholder="What do you have in mind..."></textarea>
+        <button class="btn-1" type="submit" style="color: white;">Submit</button>
+    </form>
+    </section>
+
+    <div class="footer">
+        <div class="offers" id="offers">
+            <h1>Get Discounts & Offers straight to your inbox</h1>
+            <p>Sign up for Tasty bites Newsletter.</p>
+            <div class="offer-input">
+                <input type="text" placeholder="Enter Email Address">
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div class="bot-footer">
+            <a href="index.html">
+                <h1>TB</h1>
+            </a>
+            <div class="socials">
+                <a href="facebook.com">
+                    <i class="fa-brands fa-square-facebook fa-2x1" style="color: #ffffff;"></i>
+                </a>
+                <a href="x.com">
+                    <i class="fa-brands fa-square-x-twitter fa-2x1" style="color: #ffffff;"></i>
+                </a>
+                <a href="instagram.com">
+                    <i class="fa-brands fa-square-instagram fa-2x1" style="color: #ffffff;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
