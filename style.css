@@ -826,8 +826,8 @@ a:hover{
         height: 300px;
     }
     .about-img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
     .callout{
         margin-top: 10px;
@@ -869,6 +869,7 @@ a:hover{
     .testimony{
         width: 280px;
         height: 200px;
+        margin-top: 20px;
     }
     .testimony p{
         width: 250px;
